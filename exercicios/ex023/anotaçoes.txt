@@ -1,14 +1,28 @@
+
 HIERARQUIA DE TABELAS (simples)
-     TABLE= tabela
+    TABLE= tabela
         TABLE ROW= linha de tabela
             TABLE READER = cabeçalho de tabela
             TABLE DATA = dados de tabela
 
 HIERARQUIA DE TABELAS GRANDES
     TABLE
+        CAPTION= LEGENDA
         THEAD
             TR, TD, TH
         TBODY
             TR, TD, TH
         TFOOT
-             TR, TD, TH
+            TR, TD, TH
+
+EFEITO ZEBRADO
+    para tal efeito devera usar uma pseudo classe
+    chamda [:nth-child(2n)] o numero entre parentese determina
+    a variação do efeito ZEBRADO ou pode ser usado entre parentese
+    (odd)= impar e (even)=
+    par
+    EX= <style> 
+    tbody > tr:nth-child(2n){
+        background-color: ligtgray;
+    }
+    </style>
