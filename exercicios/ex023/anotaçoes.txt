@@ -26,3 +26,13 @@ EFEITO ZEBRADO
         background-color: ligtgray;
     }
     </style>
+CABEÇALHO FIXO
+        Para color o cabeçalho no topo da pagina de forma que quando a tabela for rolada 
+        ele acompanhe exite alguns passos a setem seguidos 
+            1* Defina a posição da tabela como "relative" (ex position: relative;)
+            2* defina a THEAD dessa forma 
+                thead > tr > th {
+                    position: sticky:
+                    top:-1px;
+                    background-color: a cor definida antes;
+                }

@@ -12,10 +12,16 @@
         table{
             border-collapse: collapse;
             width: 400px;
-            height: 300px;
+            position: relative;
         }
         thead, tfoot{
             background-color: lightgrey;
+        }
+        thead > tr > th {
+                    position: sticky;
+                    top:-1px;
+                    background-color: lightgray;
+                    
         }
         th, td{
             border: 1px solid black;
