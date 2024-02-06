@@ -36,3 +36,12 @@ CABEÇALHO FIXO
                     top:-1px;
                     background-color: a cor definida antes;
                 }
+MESCLAGEM DE CELULAS 
+    Existe duas formas  de mesclagem de celulad 
+    na horisontal que seria a junção entre duas colunas e 
+    na vertical, que é a junçao de linhas.
+
+    as tags utilisadas são "colspans" e utilisada na mesclagem de colunas e a 
+    tag "rowspan" para juntar duas linhas.
+        ex: <td rowspan="2">
+            <td colspans="2">
