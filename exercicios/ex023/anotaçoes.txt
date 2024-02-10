@@ -45,3 +45,16 @@ MESCLAGEM DE CELULAS
     tag "rowspan" para juntar duas linhas.
         ex: <td rowspan="2">
             <td colspans="2">
+
+PROPRIEDADE DA COLUNA 
+        usando a tag <colgrup></colgrup>
+        depois a teg <col> vc consegue selecionar uma coluna inteira, podendo assim aditar a coluna de forma mais facil.
+
+TORNADO TABELAS EM FLEXIVEIS 
+        Para isso vc deve colocar a tapela dentro de uma <div>, depois deve colocar um estilo de overflow-x: auto; ( sentido horizontal)
+        assim a tabela sera colocada dentro de uma caixa que terar rolagem lateral independente da pagina. 
+        lembrado que isso so se aplica a tabelas muito grande.
+             
+             ex: div#conteiner{
+                overflow-x:auto;
+             }
