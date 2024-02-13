@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navegação no iframe</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        header{
+            background-color: blue;
+            color: white;
+            text-align: center;
+            height: 170px;
+        }
+       h1{
+        padding-top: 40px;
+        padding-bottom: 40px;
+       }
+       a{
+        margin: 10px;
+        padding: 10px;
+        color: azure;
+       }
+       h2{
+        margin-top: 20px;
+        text-indent: 30px;
+       }
+       p{
+        text-align: center;
+       }
+       div{
+        margin-left:3%;
+        margin-bottom: 10px;
+       }
+       footer{
+        background-color: black;
+        color: white;
+        margin: 0%;
+        padding: 30px;
+        margin-top: 10px;
+
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mudando o conteudo do Iframe de acordo com o link </h1>
+        <nav>
+            <a href="../ex023/tabela002.html" target="frame">pagina 01</a>
+            <a href="../ex023/tabela003.html" target="frame">pagina 02</a>
+            <a href="../ex023/tabela004.html" target="frame">pagina 03</a>
+        </nav>
+    </header>
+ <main>
+    <h2>veja como o conteudo mudar!</h2>
+    <p>Para que o conteudo do iframe mude basta clicar nos links acima e você ira ver como ele muda!</p>
+
+    <div><iframe src="../ex023/tabela004.html" name="frame" width="95%" height="500px"></iframe></div>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet vitae enim quaerat quos quis dolores maiores velit odit! Saepe sequi mollitia animi perferendis ipsum vero eligendi sit quis vel ea! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore aliquam cupiditate suscipit id nisi consequatur ut vitae deleniti neque praesentium fugiat repellat consectetur, omnis velit, eos at sint odit facilis!</p>
+</main>
+<footer>
+<p>site montado por <strong>Valdinar Ramos</strong> para o exercio do capitolo 24 do curso em video</p>
+</footer>   
+</body>
+</html>
